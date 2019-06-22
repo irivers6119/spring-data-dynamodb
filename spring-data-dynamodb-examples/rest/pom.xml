@@ -64,6 +64,12 @@
                 <configuration>
                     <mainClass>com.github.derjust.spring_data_dynamodb_examples.rest.Application</mainClass>
                 </configuration>
+                <executions>
+                    <execution>
+                        <id>exec</id>
+                        <phase>none</phase>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
